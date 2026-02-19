@@ -1,0 +1,16 @@
+{
+    "name": "remote-mcp-authless",
+    "version": "1.0.0",
+    "description": "A remote MCP server example without authentication",
+    "type": "module",
+    "scripts": {
+          "start": "wrangler dev",
+          "deploy": "wrangler deploy"
+    },
+    "dependencies": {
+          "@anthropic-sdk/sdk": "latest"
+    },
+    "devDependencies": {
+          "wrangler": "latest"
+    }
+}
